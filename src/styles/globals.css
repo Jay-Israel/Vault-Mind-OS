@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f8fafc;
+  background-color: #050816;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #02040B 0%, #061026 45%, #050816 100%);
+}
+
+body {
+  color: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.35);
+}
+
+.glass-card {
+  background: rgba(10, 18, 38, 0.82);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.gradient-ring {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 0 30px rgba(79, 127, 255, 0.16);
+}
