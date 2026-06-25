@@ -1,7 +1,7 @@
 import { ethers, Contract, providers, Signer } from "ethers";
-import VaultMindTokenAbi from "../../../../artifacts/contracts/VaultMindToken.sol/VaultMindToken.json";
-import VaultMindTreasuryAbi from "../../../../artifacts/contracts/VaultMindTreasury.sol/VaultMindTreasury.json";
-import PolicyManagerAbi from "../../../../artifacts/contracts/PolicyManager.sol/PolicyManager.json";
+import VaultMindTokenAbi from "../../../artifacts/contracts/VaultMindToken.sol/VaultMindToken.json";
+import VaultMindTreasuryAbi from "../../../artifacts/contracts/VaultMindTreasury.sol/VaultMindTreasury.json";
+import PolicyManagerAbi from "../../../artifacts/contracts/PolicyManager.sol/PolicyManager.json";
 
 export interface VaultMindAddresses {
   token: string;

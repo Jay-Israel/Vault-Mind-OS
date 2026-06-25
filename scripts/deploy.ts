@@ -1,5 +1,7 @@
 import { ethers } from "hardhat";
 
+const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
+
 async function main() {
   const [deployer] = await ethers.getSigners();
   console.log("Deploying with", deployer.address);
@@ -12,7 +14,7 @@ async function main() {
   await token.deployed();
   console.log("VaultMindToken deployed to", token.address);
 
-  const treasury = await treasuryFactory.deploy(deployer.address, ethers.constants.AddressZero);
+  const treasury = await treasuryFactory.deploy(deployer.address, ZERO_ADDRESS);
   await treasury.deployed();
   console.log("VaultMindTreasury deployed to", treasury.address);
 

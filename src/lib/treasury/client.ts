@@ -1,8 +1,8 @@
 import { ethers } from "ethers";
 import { VaultMindAddresses, VaultMindContracts } from "./types";
-import VaultMindTokenAbi from "../../../../artifacts/contracts/VaultMindToken.sol/VaultMindToken.json";
-import VaultMindTreasuryAbi from "../../../../artifacts/contracts/VaultMindTreasury.sol/VaultMindTreasury.json";
-import PolicyManagerAbi from "../../../../artifacts/contracts/PolicyManager.sol/PolicyManager.json";
+import VaultMindTokenAbi from "../../../artifacts/contracts/VaultMindToken.sol/VaultMindToken.json";
+import VaultMindTreasuryAbi from "../../../artifacts/contracts/VaultMindTreasury.sol/VaultMindTreasury.json";
+import PolicyManagerAbi from "../../../artifacts/contracts/PolicyManager.sol/PolicyManager.json";
 
 export function createProvider(rpcUrl?: string): ethers.providers.Provider {
   if (typeof window !== "undefined" && (window as any).ethereum) {

@@ -11,8 +11,33 @@
     "resolveJsonModule": true,
     "moduleResolution": "bundler",
     "isolatedModules": true,
-    "types": ["node", "mocha"]
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["./src", "./scripts", "./test", "./hardhat.config.ts", "./next-env.d.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "./hardhat.config.ts",
+    "./next-env.d.ts",
+    "./scripts",
+    "./src",
+    "./test",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
