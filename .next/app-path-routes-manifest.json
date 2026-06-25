@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/analytics/page": "/analytics",
+  "/api/page": "/api",
+  "/audit/page": "/audit",
+  "/page": "/",
+  "/copilot/page": "/copilot",
+  "/dashboard/page": "/dashboard",
+  "/policies/page": "/policies",
+  "/settings/page": "/settings",
+  "/treasury/page": "/treasury"
+}

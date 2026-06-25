@@ -1,4 +1,4 @@
-import { ethers, Contract, providers, Signer } from "ethers";
+import { ethers, Contract, Provider, Signer } from "ethers";
 import VaultMindTokenAbi from "../../../artifacts/contracts/VaultMindToken.sol/VaultMindToken.json";
 import VaultMindTreasuryAbi from "../../../artifacts/contracts/VaultMindTreasury.sol/VaultMindTreasury.json";
 import PolicyManagerAbi from "../../../artifacts/contracts/PolicyManager.sol/PolicyManager.json";
@@ -15,7 +15,7 @@ export interface VaultMindContracts {
   policyManager: Contract;
 }
 
-export function createVaultMindContracts(addresses: VaultMindAddresses, provider: providers.Provider | Signer): VaultMindContracts {
+export function createVaultMindContracts(addresses: VaultMindAddresses, provider: Provider | Signer): VaultMindContracts {
   const signerOrProvider = provider as Signer;
   return {
     token: new Contract(addresses.token, VaultMindTokenAbi.abi, signerOrProvider),
@@ -26,5 +26,5 @@ export function createVaultMindContracts(addresses: VaultMindAddresses, provider
 
 export async function getTreasuryBalance(treasury: Contract): Promise<string> {
   const balance = await treasury.treasuryBalance();
-  return ethers.utils.formatEther(balance);
+  return ethers.formatEther(balance);
 }

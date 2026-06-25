@@ -39,6 +39,14 @@
       "static/chunks/737-0ba0363ee3a08d86.js",
       "static/chunks/app/audit/page-d3be88c0820b0c01.js"
     ],
+    "/page": [
+      "static/chunks/webpack-303fc5ad723a27e5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-c090dee32229d4f6.js",
+      "static/chunks/737-0ba0363ee3a08d86.js",
+      "static/chunks/app/page-d3be88c0820b0c01.js"
+    ],
     "/copilot/page": [
       "static/chunks/webpack-303fc5ad723a27e5.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -55,14 +63,6 @@
       "static/chunks/737-0ba0363ee3a08d86.js",
       "static/chunks/app/dashboard/page-d3be88c0820b0c01.js"
     ],
-    "/page": [
-      "static/chunks/webpack-303fc5ad723a27e5.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-c090dee32229d4f6.js",
-      "static/chunks/737-0ba0363ee3a08d86.js",
-      "static/chunks/app/page-d3be88c0820b0c01.js"
-    ],
     "/policies/page": [
       "static/chunks/webpack-303fc5ad723a27e5.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -71,14 +71,6 @@
       "static/chunks/737-0ba0363ee3a08d86.js",
       "static/chunks/app/policies/page-d3be88c0820b0c01.js"
     ],
-    "/treasury/page": [
-      "static/chunks/webpack-303fc5ad723a27e5.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-c090dee32229d4f6.js",
-      "static/chunks/737-0ba0363ee3a08d86.js",
-      "static/chunks/app/treasury/page-d3be88c0820b0c01.js"
-    ],
     "/settings/page": [
       "static/chunks/webpack-303fc5ad723a27e5.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -86,6 +78,14 @@
       "static/chunks/main-app-c090dee32229d4f6.js",
       "static/chunks/737-0ba0363ee3a08d86.js",
       "static/chunks/app/settings/page-d3be88c0820b0c01.js"
+    ],
+    "/treasury/page": [
+      "static/chunks/webpack-303fc5ad723a27e5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-c090dee32229d4f6.js",
+      "static/chunks/737-0ba0363ee3a08d86.js",
+      "static/chunks/app/treasury/page-d3be88c0820b0c01.js"
     ]
   }
 }

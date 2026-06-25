@@ -1,9 +1,9 @@
 import { ethers } from "ethers";
 
 export function buildPolicyId(name: string): string {
-  return ethers.utils.id(name);
+  return ethers.id(name);
 }
 
 export function encodeEmergencyWithdrawal(recipient: string, amount: string): string {
-  return ethers.utils.defaultAbiCoder.encode(["address", "uint256"], [recipient, amount]);
+  return ethers.AbiCoder.defaultAbiCoder().encode(["address", "uint256"], [recipient, amount]);
 }
